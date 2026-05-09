@@ -1,0 +1,41 @@
+# Data Dictionary – Retail Sales Dataset
+
+This document describes the structure and meaning of each column in the
+Retail Sales dataset used for SQL business reporting and KPI analysis.
+
+
+
+# Table: RetailSales
+
+| Column Name     | Data Type        | Description |
+|-----------------|------------------|-------------|
+| OrderID         | VARCHAR          | Unique identifier for each customer order |
+| OrderDate       | DATE             | Date when the order was placed |
+| CustomerID      | VARCHAR          | Unique identifier for each customer |
+| CustomerName    | VARCHAR          | Name of the customer |
+| Region          | VARCHAR          | Geographic region of the customer |
+| ProductID       | VARCHAR          | Unique identifier for the product |
+| ProductName     | VARCHAR          | Product name |
+| Category        | VARCHAR          | Product category (Electronics / Accessories) |
+| Quantity        | INT              | Number of units purchased |
+| UnitPrice       | DECIMAL          | Price per unit |
+| Revenue         | DECIMAL          | Total sales value (Quantity × UnitPrice) |
+| Cost            | DECIMAL          | Total cost associated with the product |
+| Margin          | DECIMAL          | Profit (Revenue − Cost) |
+
+
+
+# Calculated Fields
+
+- **Revenue** = Quantity × UnitPrice  
+- **Margin** = Revenue − Cost  
+- **Gross Margin %** = (Margin ÷ Revenue) × 100  
+
+These calculated values were validated through reconciliation checks.
+
+
+
+# Data Integrity
+- OrderID is assumed to be unique per transaction
+- No NULL values exist in critical financial fields
+- All numeric values use consistent units
