@@ -2,7 +2,7 @@ SELECT
     YEAR(OrderDate)  AS Year,
     MONTH(OrderDate) AS Month,
     SUM(Revenue)     AS MonthlyRevenue
-FROM RetailSales
+FROM sheet
 GROUP BY YEAR(OrderDate), MONTH(OrderDate)
 ORDER BY Year, Month;
 
