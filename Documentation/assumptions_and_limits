@@ -21,14 +21,14 @@ This document outlines assumptions made during analysis and limitations based on
 
 #  Impact on Analysis
 
-- Profitability insights are limited to transactional performance.
-- Customer behavior analysis excludes demographic segmentation.
-- Forecasting accuracy is constrained by data scope.
+ Profitability insights are limited to transactional performance.
+ Customer behavior analysis excludes demographic segmentation.
+ Forecasting accuracy is constrained by data scope.
 
 
 #  Future Enhancements
 
-- Add promotional and discount data
-- Include customer segmentation attributes
-- Integrate inventory and supplier information
-- Extend time range for stronger trend analysis
+ Add promotional and discount data
+ Include customer segmentation attributes
+ Integrate inventory and supplier information
+ Extend time range for stronger trend analysis
