@@ -27,9 +27,9 @@ Retail Sales dataset used for SQL business reporting and KPI analysis.
 
 # Calculated Fields
 
-- **Revenue** = Quantity × UnitPrice  
-- **Margin** = Revenue − Cost  
-- **Gross Margin %** = (Margin ÷ Revenue) × 100  
+Revenue = Quantity × UnitPrice  
+Margin = Revenue − Cost  
+Gross Margin % = (Margin ÷ Revenue) × 100
 
 These calculated values were validated through reconciliation checks.
 
