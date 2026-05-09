@@ -1,0 +1,32 @@
+# Business Insights – Retail Sales Analysis
+
+This document summarizes key business insights derived from SQL analysis
+over a 1,200 row retail sales dataset.
+
+
+
+# Key Insights
+
+1. Electronics generate the majority of total revenue, outperforming Accessories consistently.
+2. Top customers contribute a disproportionately high share of revenue, indicating revenue concentration.
+3. UK and USA regions dominate sales, while other regions show growth potential.
+4. Accessories sell in high volumes but at lower margins, impacting overall profitability.
+5. Revenue shows steady long-term growth, with noticeable seasonal fluctuations.
+6. Repeat customers generate significantly higher lifetime value than one-time buyers.
+7. A small group of products accounts for most of the total profit margin.
+8. Month-on-month revenue growth varies, revealing periodic volatility.
+9. Rolling averages indicate stable performance despite short-term fluctuations.
+10. Revenue dependency on limited products suggests portfolio risk exposure.
+
+#  Strategic Recommendations
+
+- Invest in high-margin products to improve profitability.
+- Expand loyalty programs to retain high-value customers.
+- Optimize pricing strategies for Accessories.
+- Diversify product offerings to reduce revenue concentration risk.
+
+
+
+# Business Value
+These insights support informed decisions across pricing, marketing,
+inventory strategy, and customer retention initiatives.
