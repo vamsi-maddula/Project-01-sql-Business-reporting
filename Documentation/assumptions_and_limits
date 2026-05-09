@@ -1,0 +1,34 @@
+# Assumptions and Limitations
+
+This document outlines assumptions made during analysis and limitations based on available data
+
+# Assumptions
+
+1. Revenue and cost values are accurate and correctly calculated.
+2. Each OrderID represents a single completed transaction.
+3. No refunds or returns are included in the dataset.
+4. Customer regions reflect the primary location of purchase.
+5. Product categories are mutually exclusive and correctly labeled.
+
+#  Limitations
+
+1. Dataset does not include customer demographics (age, gender, income).
+2. No promotion or discount data is available.
+3. Inventory availability and supply chain metrics are missing.
+4. No data on marketing campaigns or acquisition sources.
+5. External market factors (seasonality, competition) are not included.
+
+
+#  Impact on Analysis
+
+- Profitability insights are limited to transactional performance.
+- Customer behavior analysis excludes demographic segmentation.
+- Forecasting accuracy is constrained by data scope.
+
+
+#  Future Enhancements
+
+- Add promotional and discount data
+- Include customer segmentation attributes
+- Integrate inventory and supplier information
+- Extend time range for stronger trend analysis
