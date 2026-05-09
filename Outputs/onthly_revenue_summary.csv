@@ -1,0 +1,15 @@
+SELECT
+    YEAR(OrderDate)  AS Year,
+    MONTH(OrderDate) AS Month,
+    SUM(Revenue)     AS MonthlyRevenue
+FROM RetailSales
+GROUP BY YEAR(OrderDate), MONTH(OrderDate)
+ORDER BY Year, Month;
+
+
+Output/
+Year,Month,MonthlyRevenue
+2023,1,245000
+2023,2,262500
+2023,3,278900
+  
