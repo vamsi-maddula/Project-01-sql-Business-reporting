@@ -4,7 +4,7 @@ SELECT
     Category,
     SUM(Revenue) AS TotalRevenue,
     SUM(Margin)  AS TotalMargin
-FROM RetailSales
+FROM sheet
 GROUP BY ProductID, ProductName, Category
 ORDER BY TotalMargin DESC;
 
