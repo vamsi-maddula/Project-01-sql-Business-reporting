@@ -1,0 +1,16 @@
+SELECT
+    ProductID,
+    ProductName,
+    Category,
+    SUM(Revenue) AS TotalRevenue,
+    SUM(Margin)  AS TotalMargin
+FROM RetailSales
+GROUP BY ProductID, ProductName, Category
+ORDER BY TotalMargin DESC;
+
+
+output/
+
+ProductID,ProductName,Category,TotalRevenue,TotalMargin
+P01,Laptop,Electronics,420000,126000
+P04,Monitor,Electronics,210000,63000
