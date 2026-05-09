@@ -1,0 +1,13 @@
+
+SELECT
+    SUM(Revenue)                     AS TotalRevenue,
+    COUNT(DISTINCT OrderID)          AS TotalOrders,
+    COUNT(DISTINCT CustomerID)       AS TotalCustomers,
+    AVG(Revenue)                     AS AverageOrderValue,
+    SUM(Margin) / SUM(Revenue) * 100 AS GrossMarginPct
+FROM sheet;
+
+output/
+
+TotalRevenue,TotalOrders,TotalCustomers,AverageOrderValue,GrossMarginPct
+1450000,1200,8,1208.33,30.00
