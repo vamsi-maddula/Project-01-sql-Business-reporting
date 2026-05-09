@@ -1,0 +1,15 @@
+SELECT
+    CustomerID,
+    CustomerName,
+    COUNT(DISTINCT OrderID) AS TotalOrders,
+    SUM(Revenue)            AS TotalRevenue
+FROM RetailSales
+GROUP BY CustomerID, CustomerName
+ORDER BY TotalRevenue DESC;
+
+
+Output/
+
+CustomerID,CustomerName,TotalOrders,TotalRevenue
+C001,Alice,24,185600
+C002,Bob,20,162400
