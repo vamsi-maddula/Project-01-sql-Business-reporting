@@ -3,7 +3,7 @@ SELECT
     CustomerName,
     COUNT(DISTINCT OrderID) AS TotalOrders,
     SUM(Revenue)            AS TotalRevenue
-FROM RetailSales
+FROM sheet
 GROUP BY CustomerID, CustomerName
 ORDER BY TotalRevenue DESC;
 
